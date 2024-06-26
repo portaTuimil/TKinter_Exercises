@@ -13,7 +13,7 @@ window.geometry('450x200')
 title_label = ttk.Label(master = window, text = 'Miles to kilometers', font = 'Calibri 24 bold')
 title_label.pack()
 
-#Input
+#Input:
 input_frame = ttk.Frame(master = window)
 entryInt = tk.IntVar()
 entryInt.set('')
@@ -23,7 +23,7 @@ entry.pack(side = 'left')
 button.pack(side = 'left')
 input_frame.pack(padx=10)
 
-#Output
+#Output:
 output_string = tk.StringVar()
 output_label = ttk.Label(master = window, font = 'Calibri 24', textvariable = output_string)
 output_label.pack(pady = 10)
